@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+body{
+    background-color: black;
+    background-image: url('../media/signin-bg.png');
+    background-repeat: no-repeat;
+}
+
+header{
+    padding: 1.7em 3.55em;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #757575;
+}
+
+a:visited, a:active, a:focus{
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: 900;
+    color: #ffffff;
+    margin-bottom: 1em;
+}
+
+footer{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 75px 25px 25px 25px;
+    background-color: rgba(0, 0, 0, 0.789);
+}
+
+.container{
+    width: 400px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.789);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 40px;
+}
+
+.logo{
+    width: 133px;
+}
+
+.input-text{
+    background-color: #333;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    padding: 15px 20px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    color: #8c8c8c;
+}
+
+.container > button{
+    margin-top: 30px;
+    background-color: #E50914;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 3px;
+    color: white;
+}
+
+.container > button > a{
+    color: #ffffff;
+    width: 100%;
+}
+
+.options{
+    color: #757575;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 16px;   
+}
+
+.remember{
+    display: flex;
+    gap: 2px;
+}
+
+.remember
+
+.nav--link{
+    list-style: none;
+}
+
+.lang{
+    color: #ffffff;
+    border: 1px solid #bbb;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.4em 0.3em;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.408);
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.lang > img{
+    height: 16px;
+}
+
+.lang > span{
+    font-size: 0.8em;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.footer-links{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 900px;
+    gap: 5px;
+    margin: 20px 0;
+}
+
+.footer-link, .footer-link:visited, .footer-link:active, .footer-top-a, .footer-top-a:visited, .footer-top-a:active, .footer-country{
+    color: #757575;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.footer-top-a, .footer-country{
+    font-size: 16px;
+}
+
+.footer-nav{
+    border: #333 solid 1px;
+    color: #999;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+.footer-nav > img, .footer-nav > span > img {
+    color: #999;
+}
+
+.extras{
+    color: #757575;
+    margin-top: 60px;
+}
+
+.fb{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.new{
+    display: flex;
+    font-size: 14px;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.new > span{
+    color: #ffffff;
+}
+
+.captcha{
+    font-size: 12px;
+}
+
+.captcha > span{
+    color: #0071eb;
+}
+
+@media (max-width: 768px) {
+    .footer-links{
+        grid-template-columns: auto auto;
+        width: fit-content;
+    }
+
+    header{
+        padding: 20px 15px;
+        height: 100%;
+    }
+}

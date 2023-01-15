@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+body{
+    background-color: #141414;
+}
+
+header{
+    padding: 1.7em 3.55em;
+}
+
+main{
+    height: 83%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+.logo{
+    width: 133px;
+}
+
+.container{
+    margin: 80px auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    background: transparent;
+    color: #757575;
+    padding: 8px 20px;
+    border: 1px solid #757575;
+    cursor: pointer;
+}
+
+.profile-card{
+    display: flex;
+    flex-direction: column;
+    color: #757575;
+}
+
+.profile-card > img{
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.profile-card > span{
+    text-align: center;
+}
+
+@media (max-width: 640px) {
+    
+    header{
+        padding: 1em 2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .profile-card > img{
+        width: 80px;
+    }
+    
+    .cards{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin: 30px 60px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1{
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    .container{
+        margin: 60px auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .cards{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin: 30px 60px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1{
+        font-weight: 300;
+    }
+
+    .container{
+        margin: 60px auto;
+    }
+}

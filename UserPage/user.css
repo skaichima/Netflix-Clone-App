@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+body{
+    background-color: #141414;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2em;
+}
+
+li{
+    list-style: none;
+}
+
+.nav--links> ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #fff;
+}
+
+.nav--links> ul >li, .extra--links> ul > li{
+    font-size: 12px;
+}
+
+.nav--links{
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.profile-pic{
+    height: 24px;
+}
+
+.extra--links> ul{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    width: 95px;
+}
+
+.container{
+    padding: 50px 0px 0px 50px;
+}
+
+.hero{
+    background-image: url('../media/MoviePoster.png');
+    background-size: 100% 100%;
+    height: 575px;
+    padding: 150px 0px 50px 50px;
+}
+
+.movie--name > img{
+    width: 200px;
+    margin: 8px 0;
+}
+
+.movie--rank > img{
+    width: 200px;
+    margin-bottom: 8px;
+}
+
+.populars{
+    padding: 0px 0px 0px 50px;
+}
+
+.movie--desc{
+    color: #fff;
+    width: 400px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.movie--btn{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin: 20px 0;
+}
+
+.play{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 2px;
+    padding: 8px 20px;
+    text-align: center;
+    gap: 5px;
+}
+
+.play > span{
+    font-weight: 700;
+}
+
+.play > img{
+    height: 19px;
+}
+
+.info > img{
+    height: 16px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 2px;
+    padding: 8px 20px;
+    text-align: center;
+    gap: 5px;
+    background-color: rgba(255, 255, 255, 0.438);
+    color: #fff;
+}
+
+.slider{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    overflow-x: hidden;
+    margin-bottom: 30px;
+}
+
+.slider > img{
+    width: 350px;
+}
+
+.slider > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.sliders{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    overflow-x: hidden;
+    margin-bottom: 30px;
+}
+
+.sliders > img{
+    width: 270px;
+}
+.sliderz{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    overflow-x: hidden;
+    margin-bottom: 30px;
+}
+
+.sliderz > img{
+    width: 350px;
+}
+
+.net-pop{
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+footer{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 75px 25px 25px 25px;
+}
+
+.footer-links{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 900px;
+    gap: 5px;
+    margin: 20px 0;
+}
+
+.footer-link, .footer-link:visited, .footer-link:active, .footer-top-a, .footer-top-a:visited, .footer-top-a:active, .footer-country{
+    color: #757575;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.footer-top-a, .footer-country{
+    font-size: 16px;
+}
+
+.footer-nav{
+    border: #333 solid 1px;
+    color: #999;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+.footer-nav > img, .footer-nav > span > img {
+    color: #999;
+}
+
+.nav--link{
+    list-style: none;
+}
+
+.lang{
+    color: #ffffff;
+    border: 1px solid #bbb;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.4em 0.3em;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.408);
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.lang > img{
+    height: 16px;
+}
+
+.lang > span{
+    font-size: 0.8em;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.down-triangle{
+    height: 0.7em;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
